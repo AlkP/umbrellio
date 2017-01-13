@@ -2,7 +2,6 @@ require 'rails_helper'
 
 RSpec.describe User, type: :model do
   let(:user) { FactoryGirl.create(:user) }
-  before { user }
   it 'not validates dublicate login' do
     expect(User.new(login: 'User', password_digest: 'Password')).to be_valid
   end

@@ -10,8 +10,8 @@ feature 'User post correct post', %q{
   given(:user) { create(:user) }
   given(:post) { create(:post) }
   
-  scenario 'Для корректного пароля и корректных данных' 
+  # scenario 'Для корректного пароля и корректных данных' 
   
-  scenario 'Для корректного пароля и не корректных данных' 
+  # scenario 'Для корректного пароля и не корректных данных' 
   
 end
